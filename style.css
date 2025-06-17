@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: Bookman, Serif;
 }
@@ -50,8 +54,8 @@ main {
 }
 
 img {
-  float: right;
-  width: 50%;
+  width: 200px;
+  height: 200px;
   padding: 10px;
 }
 
@@ -78,11 +82,12 @@ td, th {
   word-wrap: break-word;
 }
 
+footer {
+    padding: 40px 30px;
+    margin-top: 65px;
+}
+
 #lewy table {
   width: 100%;
   table-layout: fixed;
-}
-
-footer {
-    padding: 40px 30px;
 }
